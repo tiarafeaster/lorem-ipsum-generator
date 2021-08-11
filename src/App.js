@@ -22,9 +22,7 @@ function App() {
     <div className="section-center">
       <h3>tired of boring lorem ipsum?</h3>
       <form onSubmit={handleSubmit} className="lorem-form">
-        <label htmlFor="amount" className="amount">
-          paragraphs:
-        </label>
+        <label htmlFor="amount">paragraphs:</label>
         <input
           type="number"
           name="amount"
