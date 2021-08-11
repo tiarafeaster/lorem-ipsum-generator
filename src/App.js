@@ -33,12 +33,12 @@ function App() {
         <button type="submit" className="btn">
           generate
         </button>
-        <div className="lorem-text">
-          {text.map((item, index) => {
-            return <p key={index}>{item}</p>;
-          })}
-        </div>
       </form>
+      <div className="lorem-text">
+        {text.map((item, index) => {
+          return <p key={index}>{item}</p>;
+        })}
+      </div>
     </div>
   );
 }
